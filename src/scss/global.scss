@@ -69,7 +69,7 @@ body.page {
  font-family: var(--font-jost);
  font-weight: 400;
  font-size: var(--sz-18);
- line-height: 1.2;
+ line-height: 1.6;
  color: var(--t-141024);
  background-color: var(--b-fff);
  &.j-lock {
@@ -90,7 +90,7 @@ body.page {
 //@mark container
 .container {
  width: 100%;
- max-width: 1200px;
+ max-width: 1180px;
  margin: 0 auto;
  padding: 0 10px;
 }

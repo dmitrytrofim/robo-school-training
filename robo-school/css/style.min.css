@@ -275,7 +275,7 @@ body.page {
   font-family: var(--font-jost);
   font-weight: 400;
   font-size: var(--sz-18);
-  line-height: 1.2;
+  line-height: 1.6;
   color: var(--t-141024);
   background-color: var(--b-fff);
 }
@@ -294,7 +294,7 @@ body.page.j-lock {
 
 .container {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1180px;
   margin: 0 auto;
   padding: 0 10px;
 }
@@ -335,4 +335,100 @@ body.page.j-lock {
 
 .sect-gap {
   margin-bottom: 100px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: var(--t-fff);
+  font-size: var(--sz-18);
+  font-weight: 400;
+  background-color: var(--b-d52027);
+  border-radius: 5px;
+  padding: 25px 54px;
+}
+
+.header {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  color: var(--t-fff);
+  background-color: var(--b-141024);
+}
+.header__container {
+  display: grid;
+  grid-template-columns: 300px 1fr 300px;
+  padding: 30px 100px;
+  white-space: nowrap;
+}
+.header__logo {
+  font-size: var(--sz-30);
+  font-weight: 700;
+}
+.header__nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header__nav-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.header__nav-link {
+  font-size: var(--sz-20);
+}
+.header__phone {
+  font-size: var(--sz-30);
+  font-weight: 600;
+  text-align: right;
+}
+
+.greet {
+  color: var(--t-fff);
+  background-color: var(--b-141024);
+}
+.greet__container {
+  position: relative;
+  height: 100dvh;
+  display: flex;
+  align-items: center;
+  padding: 50px 0;
+}
+@media screen and (min-width: 2200px) {
+  .greet__container {
+    height: 1080px;
+  }
+}
+.greet__info {
+  display: flex;
+  flex-direction: column;
+}
+.greet__info-title {
+  text-transform: uppercase;
+  font-size: var(--sz-70);
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.greet__info-subtitle {
+  max-width: 478px;
+  font-size: var(--sz-20);
+  margin-bottom: 50px;
+}
+.greet__info-btn {
+  align-self: flex-start;
+}
+.greet__visual {
+  position: absolute;
+  left: calc(50% - 50px);
+  bottom: 0;
+  width: 36vw;
+}
+@media screen and (min-width: 2200px) {
+  .greet__visual {
+    width: 783px;
+  }
 }

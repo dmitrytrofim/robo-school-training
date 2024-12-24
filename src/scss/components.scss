@@ -34,3 +34,28 @@
 .sect-gap {
  margin-bottom: 100px;
 }
+//@mark title
+.title {
+}
+//@mark btn
+.btn {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+ color: var(--t-fff);
+ font-size: var(--sz-18);
+ font-weight: 400;
+ background-color: var(--b-d52027);
+ border-radius: 5px;
+ padding: 25px 54px;
+}
+//@mark splide
+.splide {
+ &__track {
+ }
+ &__list {
+ }
+ &__slide {
+ }
+}

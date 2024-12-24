@@ -18,24 +18,22 @@
 <body class="page">
  <div class="wrapper">
   <header class="page__header header">
- <div class="container">
-  <div class="header__container">
-   <a href="/" class="header__logo">ROBO.SCHOOL</a>
-   <nav class="header__nav">
-    <ul class="header__nav-list">
-     <li class="header__nav-item">
-      <a href="#" class="header__nav-link">О школе</a>
-     </li>
-     <li class="header__nav-item">
-      <a href="#" class="header__nav-link">Тренеры</a>
-     </li>
-     <li class="header__nav-item">
-      <a href="#" class="header__nav-link">Стоимость</a>
-     </li>
-    </ul>
-   </nav>
-   <a href="tel:+78000001122" class="header__phone">+7 800 000 11 22</a>
-  </div>
+ <div class="header__container">
+  <a href="/" class="header__logo">ROBO.SCHOOL</a>
+  <nav class="header__nav">
+   <ul class="header__nav-list">
+    <li class="header__nav-item">
+     <a href="#" class="header__nav-link">О школе</a>
+    </li>
+    <li class="header__nav-item">
+     <a href="#" class="header__nav-link">Тренеры</a>
+    </li>
+    <li class="header__nav-item">
+     <a href="#" class="header__nav-link">Стоимость</a>
+    </li>
+   </ul>
+  </nav>
+  <a href="tel:+78000001122" class="header__phone">+7 800 000 11 22</a>
  </div>
 </header>
 
@@ -49,7 +47,10 @@
        <p class="greet__info-subtitle">Курсы повышения квалификации по робототехнике для педагогов начальной школы</p>
        <a href="#" class="greet__info-btn btn">Записаться на курс</a>
       </div>
-      <img class="greet__visual" src=" " alt="">
+      <picture>
+       <source srcset="./img/greet-retina-min.png" media="(-webkit-min-device-pixel-ratio: 2)">
+       <img class="greet__visual" src="./img/greet-min.png" alt="Девушка думает о Robo-School" loading="lazy">
+      </picture>
      </div>
     </div>
    </section>

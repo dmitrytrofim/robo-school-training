@@ -1,1 +1,41 @@
 //@mark header
+.header {
+ & {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  color: var(--t-fff);
+  background-color: var(--b-141024);
+ }
+ &__container {
+  display: grid;
+  grid-template-columns: 300px 1fr 300px;
+  padding: 30px 100px;
+  white-space: nowrap;
+ }
+ &__logo {
+  font-size: var(--sz-30);
+  font-weight: 700;
+ }
+ &__nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ &__nav-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+ }
+ &__nav-item {
+ }
+ &__nav-link {
+  font-size: var(--sz-20);
+ }
+ &__phone {
+  font-size: var(--sz-30);
+  font-weight: 600;
+  text-align: right;
+ }
+}
